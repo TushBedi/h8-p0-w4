@@ -17,9 +17,6 @@ ALGORIGTHM
   ENDFOR
   return num[i]
 
-
-
-
 */
 
 //[ 2, 4, 5, 10 ]
