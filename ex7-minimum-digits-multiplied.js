@@ -2,9 +2,19 @@
   Function: Minimum Factors Required To Multiply
 
   ALGORIGTHM
-  Create variable Factors
+  Create variable factors
   FOR i from 0 to number
-    IF number %
+    IF number % i equals 0 THEN
+      push 2 combined numbers into factors
+    ENDIF
+  ENDFOR
+  Create variable min = (i*2)^2
+  FOR i form 0 until factors.length - 1
+    IF factors[i].length is less than min THEN
+      min = factors[i].length
+    ENDIF
+  ENDFOR
+  Return min
 */
 
 function minDigitsMultiplied(number) {
